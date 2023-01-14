@@ -17,14 +17,29 @@ print (fulltext)
 print (fulltextv1)
 
 print {text (0:4)}
-print {text (0:9)}
-"""
-igual, aux = 0, 0.
-texto = input("Ingrese la palabra que desea evaluar: ")
-for 
-ind in reversed(range(0, len(texto))):
-if texto[ind]. lower() == texto[aux]. lower():
-igual += 1.
-aux += 1.
-if len(texto) == igual:
-print("El texto es palindromo!")
+print {text (0:9)}"""
+
+"""condicinales
+if true : 
+    #code
+else 
+    #code """
+
+"""if anidados
+elif true :
+    #code
+    elif true :
+        #code
+        elif true :
+            #code
+else 
+    #code"""
+
+ 
+number_opcion = int (input ("Ingrese un numero")) 
+ 
+if number_opcion % 2 == 0:
+    print("el numero es par") 
+else:
+    print("el numero es impar")
+
