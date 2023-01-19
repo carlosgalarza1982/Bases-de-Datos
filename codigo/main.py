@@ -1,4 +1,4 @@
-"""nombre = input ("ingrese su nombre:")
+nombre = input ("ingrese su nombre:")
 apellido = input ("ingrese su apellido:")
 edad = input ("ingrese su edad:")
 
@@ -19,13 +19,16 @@ print (fulltextv1)
 print {text (0:4)}
 print {text (0:9)}"""
 
-"""condicinales
+"""
+condicinales
+""""""
 if true : 
     #code
 else 
     #code """
 
 """if anidados
+"""
 elif true :
     #code
     elif true :
@@ -35,11 +38,10 @@ elif true :
 else 
     #code"""
 
- 
-number_opcion = int (input ("Ingrese un numero")) 
- 
-if number_opcion % 2 == 0:
-    print("el numero es par") 
-else:
-    print("el numero es impar")
+ num1 = int (input("Digite un numero:"))
+if num1%2==0:
+    print ("el numero es par")
+else :
+    print ("el numero no es par")
+
 
